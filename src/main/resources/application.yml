@@ -1,0 +1,16 @@
+
+javateer:
+    cron-schedule:
+        price-job: 10/7 * * * * ?
+        inventory-job: 11/12 * * * * ?
+        inventory-status-job: 12/5 * * * * ?
+
+logging:
+    level:
+        root: WARN
+        org:
+            springframework:
+                web: INFO
+            quartz:
+                core: INFO
+
